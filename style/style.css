@@ -19,7 +19,7 @@ body {
 }
 
 #banner {
-    background-image: url('imagens/banner1.webp');
+    background-image: url('../imagens/banner1.webp');
     background-size: cover;
     background-position: center;
     height: 320px;
@@ -144,7 +144,7 @@ header {
 }
 
 footer {
-    background-image: url('imagens/banner2.webp');
+    background-image: url('../imagens/banner2.webp');
     background-size: cover;
     background-position: center;
     height: 350px;
