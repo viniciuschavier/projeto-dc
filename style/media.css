@@ -4,7 +4,7 @@
         width: 100%;
     }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 820px){
 
     header {
         width: 100%;
@@ -66,16 +66,12 @@
     }
 
     .ajuste-produto {
-        width: 30%;
+        width: 28%;
         margin-right: 30px;
     }
 
     .img-prod {
         width: 100%;
-    }
-
-    .img-prod3 {
-        width: 112%;
     }
 
     .nav-footer {
