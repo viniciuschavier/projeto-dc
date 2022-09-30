@@ -168,7 +168,7 @@
 
     .ajuste-trailer1 {
         width: 100%;
-        margin: 15px 0px;
+        margin: 0px 0px 15px 0px;
     }
 
     .ajuste-trailer2 {
@@ -213,16 +213,22 @@
     .ajuste-produto {
         width: 100%;
         height: 380px;
-        margin: 5px 0px 0px 0px;
+        margin: 0px;
     }
 
     .img-prod {
         width: 40%;
     }
 
+    .texto-prod1 {
+       max-width: 300px;
+       text-align: center;
+       margin: auto;
+    }
+
     .titulo-footer {
         width: 100%;
-        font: bold 15px arial; 
+        font: bold 15px 'Poppins', sans-serif; 
         margin: 15px 0px;
     }
 
