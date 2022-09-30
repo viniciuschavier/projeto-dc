@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0px;
@@ -32,13 +33,14 @@ body {
 header {
     margin: 0px;
     padding: 0px;
-    background-color: #4B5063;
+    background-color: #20242E;
 }
 
 #nav1 {
     width: 100%;
     height: 50px;
-    background-color: #4B5063;
+    background-color: #20242E;
+    
 }
 
 #nav1 ul {
@@ -52,16 +54,18 @@ header {
 }
 
 #nav1 li a {
-    font: normal 16px verdana; 
+    font: normal 16px 'Poppins', sans-serif;
     padding: 0 10px; 
-    color: #FFF; 
+    color: white;
     line-height: 50px; 
     display: inline-block;
 }
 
 #nav1 ul a:hover {
-    background-color: #20242E;
-    transition-duration: 0.7s;
+    background-color: white;
+    transition-duration: 0.8s;
+    color: blue;
+    font-weight: bold;
 }
 
 .linha-vert { 
@@ -81,11 +85,11 @@ header {
 }
 
 .bg-titulo {
-    color: white;
-    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
     margin-top: 40px;
     margin-bottom: 10px;
-    background-image:linear-gradient(to left, white, #0a4079, white);
+    font-weight: bold;
 }
 
 #destaque {
@@ -136,10 +140,10 @@ header {
 }
 
 .texto-trailer {
-    background-color: #0d253f;
+    background-color: #20242E;
     color: white;
     margin-top: 10px;
-    padding: 5px;
+    padding: 6px;
     border-radius: 8px;
 }
 
@@ -214,6 +218,6 @@ footer {
 }
 
 .ajusta-img {
-    margin:15px;
+    margin: 15px;
     height: 40px;
 }
