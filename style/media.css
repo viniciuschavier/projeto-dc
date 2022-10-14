@@ -1,7 +1,7 @@
 @media screen and (max-width:1030px){
 
     body, html {
-        width: 100vw;
+        width: 100%;
     }
 
     #container {
@@ -20,7 +20,7 @@
 @media screen and (max-width: 940px){
 
     body, html {
-        width: 100vw;
+        width: 100%;
     }
 
     header {
