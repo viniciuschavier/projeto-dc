@@ -12,6 +12,7 @@
 }
 
 body {
+    width: 100vw;
     background-color: #20242E;
     font-family: 'Roboto', sans-serif;
     margin: auto;

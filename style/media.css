@@ -1,9 +1,5 @@
 @media screen and (max-width:1030px){
 
-    body, html {
-        width: 100%;
-    }
-
     #container {
         width: 100%;
     }
@@ -18,10 +14,6 @@
 }
 
 @media screen and (max-width: 940px){
-
-    body, html {
-        width: 100%;
-    }
 
     header {
         width: 100%;
@@ -116,6 +108,10 @@
 }
 
 @media screen and (max-width: 505px){
+
+    body, html {
+        width: 100%;
+    }
 
     #banner1 {
         height: 250px;
