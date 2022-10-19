@@ -15,13 +15,6 @@
 
 @media screen and (max-width: 940px){
 
-    header {
-        width: 100%;
-    }
-
-    #nav1 ul {
-        width: 100%;
-    }
 
     #nav1 li a {
         font-size: 15px;
@@ -32,7 +25,6 @@
     }
 
     #destaque {
-        width: 100%;
         height: auto;
     }
 
@@ -47,7 +39,6 @@
     }
 
     #container-trailer {
-        width: 100%;
         height: auto;
     }
 
@@ -79,7 +70,6 @@
     }
 
     #container-loja {
-        width: 100%;
         height: auto;
     }
 
@@ -109,25 +99,15 @@
 
 @media screen and (max-width: 505px){
 
-    header {
-        width: 100vw;
-    }
-
     #banner1 {
         height: 250px;
     }
 
-    #banner {
-        height: 250px;
-    }
-
     #nav1 {
-        width: 99%;
         height: 38px;
     }
 
     #nav1 ul {
-        width: 99%;
         height: 38px;
     }
 
@@ -135,10 +115,6 @@
         font-size: 13px;
         height: 38px;
         line-height: 34px;
-    }
-
-    #container {
-        width: 100vw;
     }
 
     .linha-vert {
@@ -168,7 +144,7 @@
     }
 
     #container-trailer {
-        width: 99%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -177,6 +153,7 @@
     .ajuste-trailer1 {
         width: 100%;
         margin: 0px 0px 15px 0px;
+        padding: 0px;
     }
 
     .ajuste-trailer2 {
@@ -213,7 +190,7 @@
     }
 
     #container-loja {
-        width: 99%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -235,18 +212,11 @@
        margin: auto;
     }
 
-    footer {
-        width: 100vw;
-    }
 
     .titulo-footer {
         width: 100%;
         font: bold 15px 'Poppins', sans-serif; 
         margin: 15px 0px;
-    }
-
-    #redes-sociais {
-        width: 100vw;
     }
 
     .nav-footer ul li {
