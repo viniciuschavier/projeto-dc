@@ -109,8 +109,8 @@
 
 @media screen and (max-width: 505px){
 
-    body, html {
-        width: 100%;
+    header {
+        width: 100vw;
     }
 
     #banner1 {
@@ -135,6 +135,10 @@
         font-size: 13px;
         height: 38px;
         line-height: 34px;
+    }
+
+    #container {
+        width: 100vw;
     }
 
     .linha-vert {
@@ -231,10 +235,18 @@
        margin: auto;
     }
 
+    footer {
+        width: 100vw;
+    }
+
     .titulo-footer {
         width: 100%;
         font: bold 15px 'Poppins', sans-serif; 
         margin: 15px 0px;
+    }
+
+    #redes-sociais {
+        width: 100vw;
     }
 
     .nav-footer ul li {
