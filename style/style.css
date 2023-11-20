@@ -83,6 +83,9 @@ body {
     height: 380px;
 }
 
+.card-lego {
+    display: inline-block;
+}
 
 .img {
     margin: 10px;

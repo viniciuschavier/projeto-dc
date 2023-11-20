@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 950px){
 
 
     #nav1 li a {
@@ -32,13 +32,22 @@
     }
 
     #destaque {
-        
         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card-lego{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        height: 100%;
     }
 
     .img {
-        width: 90%;
-        height: 300px;
+        width: 40%;
         margin: auto;
     }
 
@@ -122,8 +131,20 @@
 
     #destaque {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         height: auto;
+    }
+
+    .card-lego {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img {
+        width: 40%;
     }
 
     #container-trailer {
@@ -131,16 +152,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    span {
-        margin: 10px;
-        width: 40%;
-    }
-
-    .img {
-        width: 100%;
-        height: auto;
     }
 
     .link {
