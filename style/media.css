@@ -22,7 +22,6 @@
 
 @media screen and (max-width: 950px){
 
-
     #nav1 li a {
         font-size: 15px;
     }
@@ -144,7 +143,7 @@
     }
 
     .img {
-        width: 43%;
+        width: 45%;
     }
 
     #container-trailer {
