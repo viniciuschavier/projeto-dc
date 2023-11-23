@@ -22,6 +22,10 @@
 
 @media screen and (max-width: 950px){
 
+    body {
+        width: 100%;
+    }
+
     #nav1 li a {
         font-size: 15px;
     }
@@ -74,7 +78,6 @@
     #container-loja {
         height: auto;
     }
-
 
     .img-prod {
         width: 60%;
@@ -143,7 +146,7 @@
     }
 
     .img {
-        width: 45%;
+        width: 48%;
     }
 
     #container-trailer {
