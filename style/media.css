@@ -104,10 +104,6 @@
         padding-bottom: 20px;
     }
 
-    #banner1 {
-        height: 250px;
-    }
-
     #nav1 {
         height: 38px;
     }
@@ -146,7 +142,7 @@
     }
 
     .img {
-        width: 48%;
+        width: 47%;
     }
 
     #container-trailer {
