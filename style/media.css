@@ -1,5 +1,9 @@
 @media screen and (max-width:1030px){
 
+    body {
+        background-color: #1a1a1a;
+    }
+
     #container {
         width: 100%;
     }
@@ -14,13 +18,9 @@
         align-items: center;
         justify-content: center;
     }
-
-    .img {
-        width: 210px;
-    }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 980px){
 
     body {
         width: 100%;
@@ -34,11 +34,20 @@
         display: none;
     }
 
+    #banner1 {
+        height: 45vh;
+    }
+
+    .bg-titulo {
+        margin-bottom: 20px;
+    }
+
     #destaque {
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 1200px;
     }
 
     .card-lego{
@@ -50,8 +59,9 @@
     }
 
     .img {
-        width: 40%;
+        width: 38%;
         margin: auto;
+        height: 90%;
     }
 
     #container-trailer {
@@ -60,10 +70,11 @@
 
     .ajuste-trailer {
         width: 80%;
+        margin: auto auto 100px auto;
     }
 
     .img-trailer {
-        width: 100%;
+        width: 90%;
         height: 70%;
     }
 
@@ -127,26 +138,27 @@
     }
 
     .bg-titulo {
-        margin-top: 70px;
-        margin-bottom: 5px;
+        margin-top: 50px;
+        margin-bottom: 10px;
     }
 
     #destaque {
         display: flex;
         flex-direction: column;
-        height: auto;
+        height: 900px;
     }
 
     .card-lego {
         display: flex;
         flex-direction: row;
-        margin: 10px;
         width: 100%;
         height: 100%;
+        margin: 15px;
     }
 
     .img {
-        width: 47%;
+        width: 45%;
+        height: 100%;
     }
 
     #container-trailer {
@@ -154,6 +166,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .img-trailer{
+        width: 100%;
     }
 
     .link {
